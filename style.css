@@ -21,7 +21,7 @@ body {
 }
 
 .head-img {
-  width: 26rem;
+  width: 40vw;
   display: block;
   margin: 0 auto;
 }
@@ -99,4 +99,10 @@ footer p {
   color: var(--para-color);
   font-size: 1rem;
   letter-spacing: 0.08rem;
+}
+
+@media (max-width: 700px) {
+  .head-img {
+    width: 60vw;
+  }
 }
